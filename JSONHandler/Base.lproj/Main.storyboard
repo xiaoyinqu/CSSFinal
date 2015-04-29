@@ -28,7 +28,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="organizationCell" rowHeight="139" id="qb2-x5-GZn" customClass="organizationTableViewCell">
-                                <rect key="frame" x="0.0" y="22" width="375" height="139"/>
+                                <rect key="frame" x="0.0" y="86" width="375" height="139"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qb2-x5-GZn" id="KTC-qI-qyT">
                                     <rect key="frame" x="0.0" y="0.0" width="342" height="138"/>
@@ -378,6 +378,9 @@
                                 <state key="normal" title="Aging in Place" backgroundImage="greybutton">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="v8U-Gy-1D7" kind="push" id="iCe-he-ZlT"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ctl-Mw-14U">
                                 <rect key="frame" x="9" y="369" width="317" height="105"/>
@@ -792,7 +795,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="ycF-7o-RgP"/>
+        <segue reference="pb8-qa-fwA"/>
         <segue reference="i4O-AC-fwi"/>
     </inferredMetricsTieBreakers>
 </document>
