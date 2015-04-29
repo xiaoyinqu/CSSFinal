@@ -28,7 +28,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="organizationCell" rowHeight="139" id="qb2-x5-GZn" customClass="organizationTableViewCell">
-                                <rect key="frame" x="0.0" y="86" width="375" height="139"/>
+                                <rect key="frame" x="0.0" y="22" width="375" height="139"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qb2-x5-GZn" id="KTC-qI-qyT">
                                     <rect key="frame" x="0.0" y="0.0" width="342" height="138"/>
@@ -556,7 +556,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kQg-PY-xxL">
                                 <rect key="frame" x="225" y="482" width="88" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" backgroundImage="forward-512">
+                                <state key="normal" backgroundImage="rightarro">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -753,6 +753,16 @@
                                     <segue destination="v8U-Gy-1D7" kind="push" id="79t-a4-SQt"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FoV-AF-a0m">
+                                <rect key="frame" x="213" y="479" width="88" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="leftarrow">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="h0A-Bo-etY" kind="push" id="i4O-AC-fwi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -761,7 +771,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Su9-s8-Z0c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1680.5" y="515.5"/>
+            <point key="canvasLocation" x="1914.5" y="51.5"/>
         </scene>
     </scenes>
     <resources>
@@ -770,10 +780,11 @@
         <image name="ad2" width="940" height="300"/>
         <image name="callCSS" width="535" height="217"/>
         <image name="download" width="225" height="225"/>
-        <image name="forward-512" width="512" height="512"/>
         <image name="getdirections" width="547" height="206"/>
         <image name="greenbutton" width="132" height="68"/>
         <image name="greybutton" width="194" height="105"/>
+        <image name="leftarrow" width="188" height="90"/>
+        <image name="rightarro" width="325" height="155"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -781,6 +792,7 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="pb8-qa-fwA"/>
+        <segue reference="ycF-7o-RgP"/>
+        <segue reference="i4O-AC-fwi"/>
     </inferredMetricsTieBreakers>
 </document>
