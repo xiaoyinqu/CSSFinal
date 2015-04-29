@@ -1,9 +1,3 @@
-# Example JSON Handler iOS app
+CSS is an IOS application that provides resource directory around Claremont area. 
+The app utilizes the JSONLoader developed by Dada Beatnik(http://www.dadabeatnik.com) to handle database. 
 
-An example of parsing a JSON file and displaying the data in a table view.
-
-Requires Xcode 5 and iOS 7.
-
-
-***
-[Dada Beatnik](http://www.dadabeatnik.com)
