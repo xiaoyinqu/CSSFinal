@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9BAE9870181E832100676E43"
-               BuildableName = "JSONHandler.app"
-               BlueprintName = "JSONHandler"
-               ReferencedContainer = "container:JSONHandler.xcodeproj">
+               BuildableName = "CSS.app"
+               BlueprintName = "CSS"
+               ReferencedContainer = "container:CSS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "9BAE9891181E832100676E43"
                BuildableName = "JSONHandlerTests.xctest"
                BlueprintName = "JSONHandlerTests"
-               ReferencedContainer = "container:JSONHandler.xcodeproj">
+               ReferencedContainer = "container:CSS.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9BAE9870181E832100676E43"
-            BuildableName = "JSONHandler.app"
-            BlueprintName = "JSONHandler"
-            ReferencedContainer = "container:JSONHandler.xcodeproj">
+            BuildableName = "CSS.app"
+            BlueprintName = "CSS"
+            ReferencedContainer = "container:CSS.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -58,13 +58,14 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9BAE9870181E832100676E43"
-            BuildableName = "JSONHandler.app"
-            BlueprintName = "JSONHandler"
-            ReferencedContainer = "container:JSONHandler.xcodeproj">
+            BuildableName = "CSS.app"
+            BlueprintName = "CSS"
+            ReferencedContainer = "container:CSS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -76,13 +77,14 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9BAE9870181E832100676E43"
-            BuildableName = "JSONHandler.app"
-            BlueprintName = "JSONHandler"
-            ReferencedContainer = "container:JSONHandler.xcodeproj">
+            BuildableName = "CSS.app"
+            BlueprintName = "CSS"
+            ReferencedContainer = "container:CSS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -34,14 +34,14 @@
 		9B9C12B11822D3330056633F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		9BAC450F181EBD6500CED7FE /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
 		9BAC4510181EBD6500CED7FE /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
-		9BAE9871181E832100676E43 /* JSONHandler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSONHandler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAE9871181E832100676E43 /* CSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BAE9874181E832100676E43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9BAE9876181E832100676E43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		9BAE9878181E832100676E43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		9BAE987C181E832100676E43 /* JSONHandler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JSONHandler-Info.plist"; sourceTree = "<group>"; };
+		9BAE987C181E832100676E43 /* CSS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CSS-Info.plist"; sourceTree = "<group>"; };
 		9BAE987E181E832100676E43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BAE9880181E832100676E43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9BAE9882181E832100676E43 /* JSONHandler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONHandler-Prefix.pch"; sourceTree = "<group>"; };
+		9BAE9882181E832100676E43 /* CSS-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CSS-Prefix.pch"; sourceTree = "<group>"; };
 		9BAE9883181E832100676E43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BAE9884181E832100676E43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9BAE9887181E832100676E43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		9BAE9872181E832100676E43 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9BAE9871181E832100676E43 /* JSONHandler.app */,
+				9BAE9871181E832100676E43 /* CSS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -161,9 +161,9 @@
 				9BAE9883181E832100676E43 /* AppDelegate.h */,
 				9BAE9884181E832100676E43 /* AppDelegate.m */,
 				9BAE988C181E832100676E43 /* Images.xcassets */,
-				9BAE987C181E832100676E43 /* JSONHandler-Info.plist */,
+				9BAE987C181E832100676E43 /* CSS-Info.plist */,
 				9BAE987D181E832100676E43 /* InfoPlist.strings */,
-				9BAE9882181E832100676E43 /* JSONHandler-Prefix.pch */,
+				9BAE9882181E832100676E43 /* CSS-Prefix.pch */,
 			);
 			name = other;
 			sourceTree = "<group>";
@@ -171,9 +171,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9BAE9870181E832100676E43 /* JSONHandler */ = {
+		9BAE9870181E832100676E43 /* CSS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BAE98A3181E832100676E43 /* Build configuration list for PBXNativeTarget "JSONHandler" */;
+			buildConfigurationList = 9BAE98A3181E832100676E43 /* Build configuration list for PBXNativeTarget "CSS" */;
 			buildPhases = (
 				9BAE986D181E832100676E43 /* Sources */,
 				9BAE986E181E832100676E43 /* Frameworks */,
@@ -183,9 +183,9 @@
 			);
 			dependencies = (
 			);
-			name = JSONHandler;
+			name = CSS;
 			productName = JSONHandler;
-			productReference = 9BAE9871181E832100676E43 /* JSONHandler.app */;
+			productReference = 9BAE9871181E832100676E43 /* CSS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9BAE986C181E832100676E43 /* Build configuration list for PBXProject "JSONHandler" */;
+			buildConfigurationList = 9BAE986C181E832100676E43 /* Build configuration list for PBXProject "CSS" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -219,7 +219,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9BAE9870181E832100676E43 /* JSONHandler */,
+				9BAE9870181E832100676E43 /* CSS */,
 			);
 		};
 /* End PBXProject section */
@@ -359,9 +359,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSONHandler/JSONHandler-Prefix.pch";
-				INFOPLIST_FILE = "JSONHandler/JSONHandler-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "JSONHandler/CSS-Prefix.pch";
+				INFOPLIST_FILE = "JSONHandler/CSS-Info.plist";
+				PRODUCT_NAME = CSS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -372,9 +372,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JSONHandler/JSONHandler-Prefix.pch";
-				INFOPLIST_FILE = "JSONHandler/JSONHandler-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "JSONHandler/CSS-Prefix.pch";
+				INFOPLIST_FILE = "JSONHandler/CSS-Info.plist";
+				PRODUCT_NAME = CSS;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -382,7 +382,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9BAE986C181E832100676E43 /* Build configuration list for PBXProject "JSONHandler" */ = {
+		9BAE986C181E832100676E43 /* Build configuration list for PBXProject "CSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BAE98A1181E832100676E43 /* Debug */,
@@ -391,7 +391,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BAE98A3181E832100676E43 /* Build configuration list for PBXNativeTarget "JSONHandler" */ = {
+		9BAE98A3181E832100676E43 /* Build configuration list for PBXNativeTarget "CSS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9BAE98A4181E832100676E43 /* Debug */,
